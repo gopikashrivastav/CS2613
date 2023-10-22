@@ -1,0 +1,17 @@
+CS2613 Cycle 2 Lab 6
+
+Task 1
+
+The main difference between arrays in java and lists in python is that lists that store elements of different datatypes, whereas arrays in java are defined to be of a single datatype. 
+
+Syntax: 
+
+A list with different datatypes can be declared as so: 
+List1 = [1,2,”hello”, “python” ‘h’, “5”]
+
+An array in java is defined as so:
+String arr[] = new String[5] which creates an array of length 5.
+
+Lists and arrays also differ in their functional methods, one of them being negative indexing. Lists in python can be iterated through using negative indexing whereas arrays in java do not have the same functionality and can be iterated through using normal indexing. 
+
+
