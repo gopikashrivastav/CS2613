@@ -1,0 +1,26 @@
+
+fprintf("Task 1")
+
+function str2vector (st)
+
+  st= tolower(st);
+  m = length(st);
+  for i = 1:256
+	  freq(i) =0;
+  endfor
+  for i = 1:m
+	    c = st(i);
+            if(isletter(c))
+	      freq(c) = freq(c)+1;
+            endif 
+  endfor
+  for i = 1:256
+	if(freq(i)!=0)
+	     freq(i);
+        endif
+  endfor
+ endfunction
+
+ str2vector("Hello Programming Languages Lab!")
+ 
+
