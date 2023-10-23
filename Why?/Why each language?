@@ -1,0 +1,64 @@
+Python:
+    Python is the best solution for the processing of huge data files, CPU-intensive projects, and large-scale applications.
+
+    Python comes with many ready-to-use modules and libraries, whereas JavaScript does not have as many in-built modules as Python except a few, like JSON and Math.
+
+    Python is essentially a “batteries included” language and thus offers an extensive set of components to enable developers to perform multiple tasks like machine learning, data analytics, and scientific programs.
+
+
+    Between Python vs JavaScript for backend, Python features multiple varieties of numeric data types, whereas JavaScript offers only floating-type variables.
+
+******IMPORTANT Data type distinction 
+
+    Numeric data types are the data stored in the database columns in the form of numbers and not in any descriptive form. As you can arithmetically and statistically calculate numeric types, they stand different from other types of data. Although JavaScript has a limited set of variables, modern V8 engines and browsers support also support a new primitive type.
+
+    On the other hand, Python comes with an array of numeric data variables such as float, fixed-point decimal, and int.
+
+
+Javascript:
+    versatile programming language that enables developers to build high-performing software with multiple frameworks and libraries.
+
+    Key Features
+
+    Offers interactive elements for web pages
+    Object-oriented scripting language
+    Has full support for DOM manipulation
+    Works on both server-side and client-side
+    Provides more control over the browser
+
+    t's moderately faster due to the multithreading feature of Node.js, which Python lacks. That's why the topic of Node.js vs Python for back-end development is often relevant in the development industry.
+
+    JavaScript apps are highly scalable for their multithreading feature, whereas Python apps are less scalable as they run one thread at a time.
+
+
+
+
+Racket:
+    Racket is a modern functional programming language, 
+    a dialect of Lisp and Scheme, 
+    good for exploration of ideas and rapid prototyping.
+
+    Python is most praised for its elegant syntax and readable code, if you are just beginning your programming career python suits you best. What is Racket? *A general-purpose, multi-paradigm programming language *. It is a general-purpose, multi-paradigm programming language based on the Scheme dialect of Lisp.
+
+
+    While this syntax can be confusing at first, it allows Lisp to be used to tackle complex mathematical and logical problems while the code remains relatively simple.
+
+
+    Lisp, an acronym for list processing, is a functional programming language that was designed for easy manipulation of data strings. As one of the oldest programming languages still in use, Lisp offers several different dialects and has influenced the development of other languages.
+
+
+Octave:
+    GNU Octave is a high-level language, 
+    primarily intended for numerical computations. 
+    It provides a convenient command line interface for solving linear 
+    and nonlinear problems numerically, and for performing other numerical 
+    experiments using a language that is mostly compatible with Matlab.
+    Powerful mathematics-oriented syntax with built-in 2D/3D plotting and visualization tools
+
+    Octave is also slow. It even inherits the terrible function call performance Matlab has, so recursive function calls are significantly slower than loops.
+
+    In my opinion, there are only two reasons to use Octave these days:
+
+    you want to run Matlab code without a Matlab license.
+
+    one of Octave’s libraries is just that perfect for your application.
