@@ -8,11 +8,23 @@ Python:
 
     Between Python vs JavaScript for backend, Python features multiple varieties of numeric data types, whereas JavaScript offers only floating-type variables.
 
-******IMPORTANT Data type distinction 
+******IMPORTANT Data type distinction, Implicit conversion 
 
     Numeric data types are the data stored in the database columns in the form of numbers and not in any descriptive form. As you can arithmetically and statistically calculate numeric types, they stand different from other types of data. Although JavaScript has a limited set of variables, modern V8 engines and browsers support also support a new primitive type.
 
     On the other hand, Python comes with an array of numeric data variables such as float, fixed-point decimal, and int.
+
+
+    In terms of implicit conversion, JavaScript is a weaky-typed programming language, whereas Python is strongly-typed.
+
+    
+    Simply put, implicit data type conversion does not happen in Python. However, it allows both dynamic typing and strong typing. In the case of JavaScript, it provides implicit data type conversion and therefore is weakly-typed.
+
+    For instance, the type conversion in JavaScript will happen as the following:
+
+    3 + ‘3’; //The output is ‘33’, a string
+
+    But if you run the same thing on Python, you will end up with a TypeError. Dynamic typing refers to a variable’s potential to alter its type according to its assignment at any given type.
 
 
 Javascript:
