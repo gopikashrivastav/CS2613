@@ -41,18 +41,6 @@ def most_common(st3):
                     st = j
     print(st)
 
-        
-
-
-
-
-
-
-
-
-
-
-
 given_length("The white cat and the red fox.", 3)
 
 longest_word("Hello CS2613! Python is fun.")
