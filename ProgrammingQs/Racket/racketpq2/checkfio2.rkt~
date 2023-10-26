@@ -1,0 +1,21 @@
+#lang racket
+
+(define (read-strings-from-file file-path)
+  (with-input-from-file file-path
+    (λ ()
+      (let loop ((line (read-line (current-input-port)))
+                 (strings '()))
+        (cond
+          ((eof-object? line) (reverse strings)) ; Reverse to maintain original order
+          (else
+           (loop (read-line (current-input-port))
+                 (cons line strings))))))))
+
+(define input-file "Input.txt") ; Replace with your file path
+
+(if (file-exists? input-file)
+    (define strings-list (read-strings-from-file input-file))
+    (display "File not found."))
+
+(displayln strings-list) ; Print the list of strings
+

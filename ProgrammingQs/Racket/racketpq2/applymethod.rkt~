@@ -1,0 +1,6 @@
+#lang racket
+
+(define my-list '(1 2 3 4 5))
+(define result (apply + my-list))
+
+(displayln result) ; This will display the sum of the elements in the list
