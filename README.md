@@ -1,2 +1,2 @@
 # CS2613
-Just all code from CS2613 lol
+All of my course work from CS2613: Programming Languages Lab
