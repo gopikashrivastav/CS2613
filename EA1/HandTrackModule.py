@@ -6,7 +6,7 @@ import numpy as np
 
 class handDetector():
 
-#random comment to push on github hehe
+#random comment to push on github hehe again?
     def __init__(self, mode=False, maxHands = 2, modelC=1,detectionCon = 0.5, trackCon = 0.5):
         self.mode = mode
         self.maxHands = maxHands
